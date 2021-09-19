@@ -1,5 +1,6 @@
 # ViT-jax2tf
-This repository hosts code for converting the original Vision Transformer models (JAX) to
+
+This repository hosts code for converting the original Vision Transformer models [1] (JAX) to
 TensorFlow. 
 
 The original models were fine-tuned on the ImageNet-1k dataset [2]. For more details
