@@ -14,6 +14,8 @@ The original model classes and weights [4] using the `jax2tf` tool [5].
 
 ## Vision Transformers on TensorFlow Hub
 
+<sup>[PR](https://github.com/tensorflow/tfhub.dev/pull/81)</sup>
+
 Seven best performing ImageNet-1k models have also been made available on TensorFlow 
 Hub that can be used either for off-the-shelf image classification or transfer learning.
 Please follow [`model-selector.ipynb`](https://colab.research.google.com/github/sayakpaul/ViT-jax2tf/blob/main/model-selector.ipynb)
