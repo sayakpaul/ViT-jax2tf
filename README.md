@@ -24,6 +24,7 @@ notebook to understand how these models were chosen.
 ### Image classifiers
 
 * [ViT-S16](https://tfhub.dev/sayakpaul/vit_s16_classification/1)
+* [ViT-B8](https://tfhub.dev/sayakpaul/vit_b8_classification/1)
 * [ViT-B16](https://tfhub.dev/sayakpaul/vit_b16_classification/1)
 * [ViT-B32](https://tfhub.dev/sayakpaul/vit_b32_classification/1)
 * [ViT-L16](https://tfhub.dev/sayakpaul/vit_l16_classification/1)
@@ -34,6 +35,7 @@ notebook to understand how these models were chosen.
 ### Feature extractors
 
 * [ViT-S16](https://tfhub.dev/sayakpaul/vit_s16_fe/1)
+* [ViT-B8](https://tfhub.dev/sayakpaul/vit_b8_fe/1)
 * [ViT-B16](https://tfhub.dev/sayakpaul/vit_b16_fe/1)
 * [ViT-B32](https://tfhub.dev/sayakpaul/vit_b32_fe/1)
 * [ViT-L16](https://tfhub.dev/sayakpaul/vit_l16_fe/1)
