@@ -10,7 +10,7 @@ on the training protocols, please follow [3]. The authors of [3] open-sourced ab
 notebook, one should be able to take a model from the pool of models and convert that
 to TensorFlow and use that with TensorFlow Hub and Keras.
 
-The original model classes and weights [4] using the `jax2tf` tool [5].
+The original model classes and weights [4] were converted using the `jax2tf` tool [5].
 
 ## Vision Transformers on TensorFlow Hub
 
