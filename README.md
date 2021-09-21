@@ -18,7 +18,7 @@ The original model classes and weights [4] using the `jax2tf` tool [5].
 
 Seven best performing ImageNet-1k models have also been made available on TensorFlow 
 Hub that can be used either for off-the-shelf image classification or transfer learning.
-Please follow [`model-selector.ipynb`](https://colab.research.google.com/github/sayakpaul/ViT-jax2tf/blob/main/model-selector.ipynb)
+Please follow the [`model-selector.ipynb`](https://colab.research.google.com/github/sayakpaul/ViT-jax2tf/blob/main/model-selector.ipynb)
 notebook to understand how these models were chosen.
 
 ### Image classifiers
