@@ -21,6 +21,21 @@ Hub that can be used either for off-the-shelf image classification or transfer l
 Please follow the [`model-selector.ipynb`](https://colab.research.google.com/github/sayakpaul/ViT-jax2tf/blob/main/model-selector.ipynb)
 notebook to understand how these models were chosen.
 
+The table below provides a performance summary:
+
+| **Model** | **Top-1 Accuracy (%)** |
+|:---:|:---:|
+| B/8 | 85.948 |
+| L/16 | 85.716 |
+| B/16 | 84.018 |
+| R50-L/32 | 83.784 |
+| R26-S/32 (light aug) | 80.944 |
+| R26-S/32 (medium aug) | 80.462 |
+| S/16 | 80.462 |
+| B/32 | 79.436 |
+
+Note that the top-1 accuracy is reported on ImageNet-1k validation set.
+
 ### Image classifiers
 
 * [ViT-S16](https://tfhub.dev/sayakpaul/vit_s16_classification/1)
