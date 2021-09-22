@@ -12,6 +12,8 @@ to TensorFlow and use that with TensorFlow Hub and Keras.
 
 The original model classes and weights [4] were converted using the `jax2tf` tool [5].
 
+**Note that it's a requirement to use TensorFlow 2.6 or greater to use the converted models.**
+
 ## Vision Transformers on TensorFlow Hub
 
 Find the model collection on TensorFlow Hub: https://tfhub.dev/sayakpaul/collections/vision_transformer/1.
