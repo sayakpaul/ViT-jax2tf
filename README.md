@@ -25,18 +25,19 @@ notebook to understand how these models were chosen.
 
 The table below provides a performance summary:
 
-| **Model** | **Top-1 Accuracy (%)** |
-|:---:|:---:|
-| B/8 | 85.948 |
-| L/16 | 85.716 |
-| B/16 | 84.018 |
-| R50-L/32 | 83.784 |
-| R26-S/32 (light aug) | 80.944 |
-| R26-S/32 (medium aug) | 80.462 |
-| S/16 | 80.462 |
-| B/32 | 79.436 |
+| **Model** | **Top-1 Accuracy** | **Checkpoint** | **Misc** |
+|:---:|:---:|:---:|:---:|
+| B/8 | 85.948 | B_8-i21k-300ep-lr_0.001-aug_medium2-wd_0.1-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.01-res_224.npz |  |
+| L/16 | 85.716 | L_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.1-sd_0.1--imagenet2012-steps_20k-lr_0.01-res_224.npz |  |
+| B/16 | 84.018 | B_16-i21k-300ep-lr_0.001-aug_medium2-wd_0.03-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.03-res_224.npz |  |
+| R50-L/32 | 83.784 | R50_L_32-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.1-sd_0.1--imagenet2012-steps_20k-lr_0.01-res_224.npz |  |
+| R26-S/32 (light aug) | 80.944 | R26_S_32-i21k-300ep-lr_0.001-aug_light0-wd_0.03-do_0.1-sd_0.1--imagenet2012-steps_20k-lr_0.03-res_224.npz | [tb.dev run](https://tensorboard.dev/experiment/8rjW26CoRJWdAR3ejtgvHQ/) |
+| R26-S/32 (medium aug) | 80.462 | R26_S_32-i21k-300ep-lr_0.001-aug_medium2-wd_0.1-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.01-res_224.npz |  |
+| S/16 | 80.462 | S_16-i21k-300ep-lr_0.001-aug_light1-wd_0.03-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.03-res_224.npz | [tb.dev run](https://tensorboard.dev/experiment/52LkVYfnQDykgyDHmWjzBA/) |
+| B/32 | 79.436 | B_32-i21k-300ep-lr_0.001-aug_medium1-wd_0.03-do_0.0-sd_0.0--imagenet2012-steps_20k-lr_0.03-res_224.npz |  |
 
-Note that the top-1 accuracy is reported on ImageNet-1k validation set.
+Note that the top-1 accuracy is reported on ImageNet-1k validation set. The checkpoints are present in the following GCS
+location: `gs://vit_models/augreg`. More details on these can be found in [4].
 
 ### Image classifiers
 
@@ -83,3 +84,6 @@ Note that the top-1 accuracy is reported on ImageNet-1k validation set.
 
 Thanks to the authors of Vision Transformers for their efforts put into open-sourcing
 the models.
+
+Thanks to the [ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP Credit support
+that helped me execute the experiments for this project.
