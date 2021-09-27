@@ -67,6 +67,9 @@ location: `gs://vit_models/augreg`. More details on these can be found in [4].
   and run image classification.
 * [`fine_tune.ipynb`](https://colab.research.google.com/github/sayakpaul/ViT-jax2tf/blob/main/fine_tune.ipynb): Shows how to
   fine-tune a Vision Transformer model from TensorFlow Hub on the `tf_flowers` dataset.
+  
+Additionally, [`i1k_eval`](https://github.com/sayakpaul/ViT-jax2tf/tree/main/i1k_eval) contains files for running
+evaluation on ImageNet-1k `validation` split.
 
 ## References
 
