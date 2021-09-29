@@ -1,5 +1,10 @@
 # ViT-jax2tf
 
+<p align="center">
+  <img src="https://i.ibb.co/svWx63q/vit.png" width=650/><br>
+  <sup>Example usage.</sup>
+</p>
+
 This repository hosts code for converting the original Vision Transformer models [1] (JAX) to
 TensorFlow. 
 
